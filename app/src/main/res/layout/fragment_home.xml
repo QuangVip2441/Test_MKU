@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.HomeFragment"
+    android:id="@+id/fragment_container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="12dp"
+        android:orientation="vertical">
+        
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="Chọn kiểm tra thử theo Module"
+            android:textColor="@color/colorOrange"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU1"
+            android:textAlignment="textStart"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU2"
+            android:textAlignment="textStart"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU3"
+            android:textAlignment="textStart"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU4"
+            android:textAlignment="textStart"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU5"
+            android:textAlignment="textStart"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonQuizModule6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz IU6"
+            android:textAlignment="textStart"/>
+    </LinearLayout>
+
+</FrameLayout>

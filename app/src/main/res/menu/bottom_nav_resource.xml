@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"/>
+
+    <item android:id="@+id/Home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/Results"
+        android:title="Results"
+        android:icon="@drawable/ic_score"/>
+
+    <item android:id="@+id/AddQuestion"
+        android:title="Add Question"
+        android:icon="@drawable/ic_question_answer"/>
+</menu>

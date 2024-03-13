@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".models.Log_in_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/brsign_up"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:text="Đăng Nhập">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_margin="12dp"
+        android:padding="24dp"
+        android:alpha="0.5"
+        android:background="@drawable/style_layout_backround"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tài Khoản"
+            android:background="@drawable/style_edit_text_backround"
+            android:drawableLeft="@drawable/ic_user"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:drawablePadding="12dp"
+            android:id="@+id/editEmail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_password"
+            android:layout_marginBottom="70dp"
+            android:background="@drawable/style_edit_text_backround"
+            android:drawablePadding="12dp"
+            android:id="@+id/editPassword"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng Nhập"
+            app:cornerRadius="48dp"
+            android:id="@+id/buttonSignIn"/>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Đăng Ký"
+            android:backgroundTint="@color/blue"
+            app:cornerRadius="48dp"
+            android:id="@+id/buttonSignUp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quên Mật Khẩu"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
